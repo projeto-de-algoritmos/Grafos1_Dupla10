@@ -20,8 +20,8 @@ Temas:
 ## Alunos
 |Matrícula | Aluno |
 | -- | -- |
-| xx/xxxxxx  |  xxxx xxxx xxxxx |
-| xx/xxxxxx  |  xxxx xxxx xxxxx |
+| 18/0129147  |  Pedro de Miranda Haick |
+| 15/0141220  |  Matheus de Cristo Doreia Estanislau |
 
 ## Sobre 
 Descreva os objetivos do seu projeto e como ele funciona. 
