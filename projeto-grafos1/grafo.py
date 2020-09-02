@@ -16,3 +16,53 @@ nomes = {  # Linha Azul
     41: 'Aeroporto', 42: 'Encarnação', 43: 'Moscavide', 44: 'Oriente',
     45: 'Cabo Ruivo', 46: 'Olivais', 47: 'Chelas', 48: 'Bela Vista', 49: 'Olaias'
 }
+
+grafo={}
+numVertices=0
+
+def adcVertice(vertice):
+    global grafo
+    global numVertices
+    numVertices += 1
+    grafo[vertice] = []
+
+
+def adcAresta(vertice1, vertice2):
+    global grafo
+    grafo[vertice1].append(vertice2)
+    grafo[vertice2].append(vertice1)
+
+def printGrafo(grafo):
+    for node in grafo:
+        print("{}: {}".format(node, grafo[node]))
+    print(' ')  
+
+for v in range(1,50):
+    adcVertice(v)
+
+for azul in range(1,18):
+    adcAresta(azul, azul+1)
+
+for amarelo in range(19,29):
+    adcAresta(amarelo, amarelo+1)
+
+
+adcAresta(29, 13)
+adcAresta(13, 30)
+adcAresta(31, 24)
+adcAresta(24, 32)
+
+for verde in range(32,39):
+    adcAresta(verde, verde+1)
+
+adcAresta(39, 16)
+adcAresta(16, 40)
+
+for vermelho in range(41,49):
+    adcAresta(vermelho, vermelho+1)
+
+adcAresta(49, 35)
+adcAresta(35, 28)
+adcAresta(28, 11)
+
+printGrafo(grafo)
