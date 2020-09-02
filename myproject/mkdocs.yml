@@ -1,1 +1,5 @@
-site_name: My Docs
+site_name: Grupo 10 PA
+
+nav:
+  - Home: index.md
+  - Grafos: grafos.md
