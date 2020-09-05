@@ -1,3 +1,7 @@
+import networkx as nx
+import matplotlib.pyplot as plt
+
+
 nomes = {  # Linha Azul
     1: 'Reboleira', 2: 'Amadora Este', 3: 'Alfornelos', 4: 'Pontinha', 5: 'Carnide',
     6: 'Colégio Militar/Luz', 7: 'Alto dos Moinhos', 8: 'Laranjeiras', 9: 'Jardim Zoológico',
@@ -17,6 +21,7 @@ nomes = {  # Linha Azul
     45: 'Cabo Ruivo', 46: 'Olivais', 47: 'Chelas', 48: 'Bela Vista', 49: 'Olaias'
 }
 
+G=nx.Graph()
 grafo = {}
 numVertices = 0
 
@@ -41,32 +46,46 @@ def printGrafo(grafo):
 
 
 for v in range(1, 50):
+    G.add_node(v)
     adcVertice(v)
 
 for azul in range(1, 18):
+    G.add_edge(azul, azul+1)
     adcAresta(azul, azul+1)
 
 for amarelo in range(19, 29):
+    G.add_edge(amarelo, amarelo + 1)
     adcAresta(amarelo, amarelo+1)
 
 
 adcAresta(29, 13)
+G.add_edge(29,13)
 adcAresta(13, 30)
+G.add_edge(13,30)
 adcAresta(31, 24)
+G.add_edge(31,24)
 adcAresta(24, 32)
+G.add_edge(24,32)
 
 for verde in range(32, 39):
+    G.add_edge(verde, verde+1)
     adcAresta(verde, verde+1)
 
+G.add_edge(39,16)
 adcAresta(39, 16)
+G.add_edge(16,40)
 adcAresta(16, 40)
 
 for vermelho in range(41, 49):
+    G.add_edge(vermelho, vermelho+1)
     adcAresta(vermelho, vermelho+1)
 
 adcAresta(49, 35)
+G.add_edge(49,35)
 adcAresta(35, 28)
+G.add_edge(35,28)
 adcAresta(28, 11)
+G.add_edge(28,11)
 
 
 def distBFS(inicio, destino):
@@ -124,9 +143,24 @@ def printDistancia(inicio, destino):
     print('[{}] {} -> [{}] {}: {} estações\n'.format(inicio, nomes[inicio],
                                                      destino, nomes[destino], distBFS(inicio, destino)))
 
+color_map = []
+for node in G:
+    if node <= 18:
+        color_map.append('dodgerblue')
+    elif 18 < node <= 30:
+        color_map.append('yellow')
+    elif 30 < node <= 40:
+        color_map.append('green')
+    else:
+        color_map.append('red')
 
-# printGrafo(grafo)
+nx.draw_circular(G, node_color=color_map, with_labels=True)
+plt.savefig("simple_path.png")# save as png
 
 
+
+printGrafo(grafo)
 printDistancia(1, 49)
 printCaminho(1, 49)
+
+plt.show() # display
