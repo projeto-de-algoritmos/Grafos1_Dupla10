@@ -36,8 +36,12 @@ def adcAresta(vertice1, vertice2):
 
 def printGrafo(grafo):
     for node in grafo:
-        print("{}: {}".format(node, grafo[node]))
-    print(' ')
+        print('[{}] {}:'.format(node, nomes[node]), end=' ')
+        for vizinho in grafo[node]:
+            if vizinho != grafo[node][-1]:
+                print('[{}] {}'.format(vizinho, nomes[vizinho]), end=' - ')
+            else:
+                print('[{}] {}'.format(vizinho, nomes[vizinho]))
 
 
 for v in range(1, 50):
@@ -125,8 +129,41 @@ def printDistancia(inicio, destino):
                                                      destino, nomes[destino], distBFS(inicio, destino)))
 
 
-# printGrafo(grafo)
+def menu():
+    while True:
+        print('='*len('02. Distância entre duas estações'))
+        print('01. Listar estações')
+        print('02. Distância entre duas estações')
+        print('03. Caminho entre duas estações')
+        print('04. Mostrar lista de adjacência')
+        print('05. Encerrar')
+        print('='*len('02. Distância entre duas estações'))
+
+        func = int(input('Selecione uma função(1~5): '))
+        if func == 1:
+            print(' ')
+            for estacao in nomes:
+                print('[{}]: {}'.format(estacao, nomes[estacao]))
+            print(' ')
+        elif func == 2:
+            inicio = int(input('Selecione a estação de início(nº): '))
+            destino = int(input('Selecione a estação de destino(nº): '))
+            print(' ')
+            printDistancia(inicio, destino)
+        elif func == 3:
+            inicio = int(input('Selecione a estação de início(nº): '))
+            destino = int(input('Selecione a estação de destino(nº): '))
+            print(' ')
+            printCaminho(inicio, destino)
+            print(' ')
+        elif func == 4:
+            print(" ")
+            printGrafo(grafo)
+            print(" ")
+        elif func == 5:
+            return
+        else:
+            print('Função não definida!\n')
 
 
-printDistancia(1, 49)
-printCaminho(1, 49)
+menu()
