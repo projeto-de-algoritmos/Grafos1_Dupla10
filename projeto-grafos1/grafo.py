@@ -41,8 +41,12 @@ def adcAresta(vertice1, vertice2):
 
 def printGrafo(grafo):
     for node in grafo:
-        print("{}: {}".format(node, grafo[node]))
-    print(' ')
+        print('[{}] {}:'.format(node, nomes[node]), end=' ')
+        for vizinho in grafo[node]:
+            if vizinho != grafo[node][-1]:
+                print('[{}] {}'.format(vizinho, nomes[vizinho]), end=' - ')
+            else:
+                print('[{}] {}'.format(vizinho, nomes[vizinho]))
 
 
 for v in range(1, 50):
@@ -154,13 +158,55 @@ for node in G:
     else:
         color_map.append('red')
 
-nx.draw_circular(G, node_color=color_map, with_labels=True)
-plt.savefig("simple_path.png")# save as png
+plt.savefig("grafo.png")# save as png
 
 
 
-printGrafo(grafo)
-printDistancia(1, 49)
-printCaminho(1, 49)
+def menu():
+    while True:
+        print('='*len('02. Distância entre duas estações'))
+        print('01. Listar estações')
+        print('02. Distância entre duas estações')
+        print('03. Caminho entre duas estações')
+        print('04. Mostrar lista de adjacência')
+        print('05. Mostrar Grafo')
+        print('06. Encerrar')
+        print('='*len('02. Distância entre duas estações'))
 
-plt.show() # display
+        func = int(input('Selecione uma função(1~6): '))
+        if func == 1:
+            print(' ')
+            for estacao in nomes:
+                print('[{}]: {}'.format(estacao, nomes[estacao]))
+            print(' ')
+            nx.draw_circular(G, node_color=color_map, with_labels=True)
+            plt.show() # display
+        elif func == 2:
+            inicio = int(input('Selecione a estação de início(nº): '))
+            destino = int(input('Selecione a estação de destino(nº): '))
+            print(' ')
+            printDistancia(inicio, destino)
+            nx.draw_circular(G, node_color=color_map, with_labels=True)
+            plt.show() # display
+        elif func == 3:
+            inicio = int(input('Selecione a estação de início(nº): '))
+            destino = int(input('Selecione a estação de destino(nº): '))
+            print(' ')
+            printCaminho(inicio, destino)
+            print(' ')
+            nx.draw_circular(G, node_color=color_map, with_labels=True)
+            plt.show() # display
+        elif func == 4:
+            print(" ")
+            printGrafo(grafo)
+            print(" ")
+        elif func == 5:
+            nx.draw_circular(G, node_color=color_map, with_labels=True)
+            plt.show() # display
+        elif func ==6:
+            return
+        else:
+            print('Função não definida!\n')
+
+
+menu()
