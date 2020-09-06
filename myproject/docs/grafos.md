@@ -5,18 +5,22 @@ title: Grafos
 
 ## Progeto Grafos
 ## Sobre 
-O objetivo consiste na implementação de estações de trem em grafos. 
-O projeto possibilita os usuários conhecer a menor rota entre as estações,
-assim como o caminho percorrido entre elas.
+O Objetivo do primeiro projeto de grafos foi a elaboração das linhas de metro da cidade de Lisboa-PT, o projeto permite que o usuário visualize o nome das estações,
+conheça a distancia entre duas estações, conheça a menor rota, e vizualize a plotagem do grafo contendo todas estações.
 
 ## Screenshots
-Adicione 3 ou mais screenshots do projeto em funcionamento.
+
+![Print1](/imgs/print1.png)
+![Print2](/imgs/print2.png)
+![Print3](/imgs/print3.png)
 
 ## Instalação 
 ### Pré requisitos
     - Ter instalada a biblioteca matplotlib
+        - pip install matplotlib --user
     
     - Ter instalada a biblioteca networkx
+        - pip install networkx --user
 As bibliotecas externas são de uso exclusivo para exibição dos grafos.
 
     - 1. Ter instalado python
@@ -30,12 +34,6 @@ As bibliotecas externas são de uso exclusivo para exibição dos grafos.
     2 - Entrar na pasta do repositório
     
     3 - Rodar o comando 'python -u grafo.py'
-
-## Uso 
-Explique como usar seu projeto caso haja algum passo a passo após o comando de execução.
-
-## Outros 
-Quaisquer outras informações sobre seu projeto podem ser descritas abaixo.
 
 ## Alunos
 |Matrícula | Aluno |

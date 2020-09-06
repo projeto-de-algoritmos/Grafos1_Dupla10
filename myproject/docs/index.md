@@ -26,6 +26,8 @@
     <p>Progresso:</p>
     <progress value="0" max="100">35%</meter>
   </div>
+</div>
+<div class="projetosContainer">
   <div class="cardProjetos">
     <h5>Projeto: Dividir e Conquistar</h5>
     <p>Progresso: </p>
@@ -53,7 +55,7 @@
         <img src="https://cdn.worldvectorlogo.com/logos/github-icon.svg" alt="conta github">
       </a>
     </div>
-    
+
   </div>
 
   <div class="integrante">
