@@ -1,43 +1,70 @@
-# Grafo Trem
+# Grupo 10
 
-**Número da Lista**: X<br>
-**Conteúdo da Disciplina**: Grafos1<br>
+## Projeto de algoritmos
+<p align='justify'>
+  Disciplina do 6º semestre da Universidade de Brasília, ministrada pelo professor Mauricio Serrano. Com objetivo de
+  abordar e projetar algoritmos
+  como [Grafos](grafos.md), Algoritmos Ambiciosos, Dividir e Conquistar e Programação Dinẫmica.
+</p>
 
-## Alunos
-|Matrícula | Aluno |
-| -- | -- |
-| 18/0129147  |  Pedro de Miranda Haick |
-| 15/0141220  |  Matheus de Cristo Doreia Estanislau |
+## Metodologia
+<p align='justify'>
+  A Dupla decidiu utilizar a linguagem Python para produzir os projetos visto que ambos integrantes já a utilizaram e
+  possuem alguns conhecimentos.
+</p>
 
-## Sobre 
-O objetivo consiste na implementação de estações de trem em grafos. 
-O projeto possibilita os usuários conhecer a menor rota entre as estações,
-assim como o caminho percorrido entre elas.
+## Progresso
 
-## Screenshots
-Adicione 3 ou mais screenshots do projeto em funcionamento.
+<div class="projetosContainer">
+  <div class="cardProjetos">
+    <a href="https://projeto-de-algoritmos.github.io/Grafos1_Dupla10/grafos/">Projeto: Grafos</a>
+    <p>Progresso:</p>
+    <progress value="100" max="100">35%</meter>
+  </div>
+  <div class="cardProjetos">
+    <h5>Projeto: Algoritmos Ambiciosos</h5>
+    <p>Progresso:</p>
+    <progress value="0" max="100">35%</meter>
+  </div>
+  <div class="cardProjetos">
+    <h5>Projeto: Dividir e Conquistar</h5>
+    <p>Progresso: </p>
+    <progress value="0" max="100">35%</meter>
+  </div>
+  <div class="cardProjetos">
+    <h5>Projeto: Programação Dinamica</h5>
+    <p>Progresso:</p>
+    <progress value="0" max="100">35%</meter>
+  </div>
+</div>
 
-## Instalação 
-### Pré requisitos
-    - Ter instalada a biblioteca matplotlib
+## Integrantes
+
+<div class="cardContainer">
+
+  <div class="integrante">
+    <div class="integranteLogo">
+      <img src="https://avatars2.githubusercontent.com/u/44438591?s=460&u=ee2bb251abf91b14dcc3295c47bda61c499f648f&v=4"
+        alt="Matheus">
+    </div>
+    <div class="content">
+      <p>Integrante: Matheus Estanislau</p>
+      <a href="https://github.com/MatheusEstanislau">
+        <img src="https://cdn.worldvectorlogo.com/logos/github-icon.svg" alt="conta github">
+      </a>
+    </div>
     
-    - Ter instalada a biblioteca networkx
-As bibliotecas externas são de uso exclusivo para exibição dos grafos.
+  </div>
 
-    - 1. Ter instalado python
-    - 2.Bibliotecas
-
-### Passos para rodar o projeto
-
-    1 - Clonar repositorio 
-    'git clone https://github.com/projeto-de-algoritmos/Grafos1_Dupla10.git'
-    
-    2 - Entrar na pasta do repositório
-    
-    3 - Rodar o comando 'python -u grafo.py'
-
-## Uso 
-Explique como usar seu projeto caso haja algum passo a passo após o comando de execução.
-
-## Outros 
-Quaisquer outras informações sobre seu projeto podem ser descritas abaixo.
+  <div class="integrante">
+    <div class="integranteLogo">
+      <img src="https://avatars2.githubusercontent.com/u/57498006?s=460&v=4" alt="Matheus">
+    </div>
+    <div class="content">
+      <p>Integrante: Pedro Haick</p>
+      <a href="https://github.com/peHaick">
+        <img src="https://cdn.worldvectorlogo.com/logos/github-icon.svg" alt="conta github">
+      </a>
+    </div>
+  </div>
+</div>
