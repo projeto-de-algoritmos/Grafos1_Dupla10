@@ -62,6 +62,18 @@
     justify-content: center;
   }
 
+  .projetosContainer {
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .cardProjetos{
+    width: 400px;
+    height: 120px;
+    margin: 20px 10px;
+  }
+
   .integrante{
     margin: 0px 10px;
   }

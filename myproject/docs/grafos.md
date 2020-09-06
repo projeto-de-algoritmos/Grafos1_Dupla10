@@ -10,9 +10,9 @@ conheça a distancia entre duas estações, conheça a menor rota, e vizualize a
 
 ## Screenshots
 
-![Print1](/imgs/print1.png)
-![Print2](/imgs/print2.png)
-![Print3](/imgs/print3.png)
+![Print1](https://raw.githubusercontent.com/projeto-de-algoritmos/Grafos1_Dupla10/master/myproject/docs/imgs/print1.png)
+![Print2](https://github.com/projeto-de-algoritmos/Grafos1_Dupla10/blob/master/myproject/docs/imgs/print2.png?raw=true)
+![Print3](https://github.com/projeto-de-algoritmos/Grafos1_Dupla10/blob/master/myproject/docs/imgs/print3.png?raw=true)
 
 ## Instalação 
 ### Pré requisitos
