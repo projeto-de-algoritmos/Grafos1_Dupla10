@@ -1,6 +1,6 @@
 # Grafo Trem
 
-**Número da Lista**: X<br>
+**Número da Lista**: 1<br>
 **Conteúdo da Disciplina**: Grafos1<br>
 
 ## Alunos
@@ -20,12 +20,15 @@ Adicione 3 ou mais screenshots do projeto em funcionamento.
 ## Instalação 
 ### Pré requisitos
     - Ter instalada a biblioteca matplotlib
+      pip install matplotlib
     
     - Ter instalada a biblioteca networkx
+      pip install networkx
+      
 As bibliotecas externas são de uso exclusivo para exibição dos grafos.
 
-    - 1. Ter instalado python
-    - 2.Bibliotecas
+    - 1. Ter instalado python 3
+    - 2. Bibliotecas
 
 ### Passos para rodar o projeto
 
@@ -34,10 +37,7 @@ As bibliotecas externas são de uso exclusivo para exibição dos grafos.
     
     2 - Entrar na pasta do repositório
     
-    3 - Rodar o comando 'python -u grafo.py'
+    3 - Rodar o comando 'python3 -u grafo.py'
 
 ## Uso 
-Explique como usar seu projeto caso haja algum passo a passo após o comando de execução.
-
-## Outros 
-Quaisquer outras informações sobre seu projeto podem ser descritas abaixo.
+Selecione uma das funções mostradas no menu.
