@@ -15,15 +15,19 @@ O projeto possibilita os usuários conhecer a menor rota entre as estações,
 assim como o caminho percorrido entre elas.
 
 ## Screenshots
-Adicione 3 ou mais screenshots do projeto em funcionamento.
+![](https://github.com/projeto-de-algoritmos/Grafos1_Trem/blob/master/myproject/docs/imgs/print1.png)
+
+![](https://github.com/projeto-de-algoritmos/Grafos1_Trem/blob/master/myproject/docs/imgs/print2.png)
+
+![](https://github.com/projeto-de-algoritmos/Grafos1_Trem/blob/master/myproject/docs/imgs/print3.png)
 
 ## Instalação 
 ### Pré requisitos
     - Ter instalada a biblioteca matplotlib
-      pip install matplotlib
+    $ pip install matplotlib
     
     - Ter instalada a biblioteca networkx
-      pip install networkx
+    $ pip install networkx
       
 As bibliotecas externas são de uso exclusivo para exibição dos grafos.
 
@@ -33,9 +37,9 @@ As bibliotecas externas são de uso exclusivo para exibição dos grafos.
 ### Passos para rodar o projeto
 
     1 - Clonar repositorio 
-    'git clone https://github.com/projeto-de-algoritmos/Grafos1_Dupla10.git'
+    'git clone https://github.com/projeto-de-algoritmos/Grafos1_Trem'
     
-    2 - Entrar na pasta do repositório
+    2 - Entrar na pasta Grafos1_Trem/projeto-grafos1
     
     3 - Rodar o comando 'python3 -u grafo.py'
 
