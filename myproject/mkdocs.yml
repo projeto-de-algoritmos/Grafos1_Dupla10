@@ -1,8 +1,18 @@
 site_name: Grupo 10 PA
 
+theme:
+  name: material
+  palette:
+    primary: deep purple
+    accent: indigo
+    scheme: slate
+  font:
+    text: Open Sans
+  language: pt
+
 extra_css:
   - css/extra_css.css
 
 nav:
   - Home: index.md
-  - Grafos: grafos.md
+  - Grafos 1: grafos.md

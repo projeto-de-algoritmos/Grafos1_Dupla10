@@ -1,3 +1,8 @@
+body, input {
+  font-family: 'Open Sans', -apple-system, Helvetica, Arial, sans-serif;
+}
+
+
 .projetosContainer {
   display: flex;
   flex-direction: column;

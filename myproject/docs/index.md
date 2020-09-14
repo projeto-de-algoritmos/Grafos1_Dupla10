@@ -14,30 +14,67 @@
 </p>
 
 ## Progresso
-
-<div class="projetosContainer">
-  <div class="cardProjetos">
-    <a href="https://projeto-de-algoritmos.github.io/Grafos1_Dupla10/grafos/">Projeto: Grafos</a>
-    <p>Progresso:</p>
-    <progress value="100" max="100">35%</meter>
+<div class="content2">
+<div class="container">
+  <div class="card">
+    <div class="box">
+      <div class="percent">
+        <svg>
+          <circle cx="70" cy="70" r="70"></circle>
+          <circle cx="70" cy="70" r="70"></circle>
+        </svg>
+        <div class="number">
+          <h2>100<span>%</span> </h2>
+        </div>
+          <h2 class="text">Grafos 1</h2>
+      </div>
+    </div>
   </div>
-  <div class="cardProjetos">
-    <h5>Projeto: Algoritmos Ambiciosos</h5>
-    <p>Progresso:</p>
-    <progress value="0" max="100">35%</meter>
+  <div class="card">
+    <div class="box">
+      <div class="percent">
+        <svg>
+          <circle cx="70" cy="70" r="70"></circle>
+          <circle cx="70" cy="70" r="70"></circle>
+        </svg>
+        <div class="number">
+          <h2>00<span>%</span> </h2>
+        </div>
+          <h2 class="text">Grafos 2</h2>
+      </div>
+    </div>
   </div>
 </div>
-<div class="projetosContainer">
-  <div class="cardProjetos">
-    <h5>Projeto: Dividir e Conquistar</h5>
-    <p>Progresso: </p>
-    <progress value="0" max="100">35%</meter>
+<div class="container2">
+  <div class="card2">
+    <div class="box">
+      <div class="percent">
+        <svg>
+          <circle cx="70" cy="70" r="70"></circle>
+          <circle cx="70" cy="70" r="70"></circle>
+        </svg>
+        <div class="number">
+          <h2>00<span>%</span> </h2>
+        </div>
+          <h2 class="text">Algoritmos Ambiciosos</h2>
+      </div>
+    </div>
   </div>
-  <div class="cardProjetos">
-    <h5>Projeto: Programação Dinamica</h5>
-    <p>Progresso:</p>
-    <progress value="0" max="100">35%</meter>
+  <div class="card2">
+    <div class="box">
+      <div class="percent">
+        <svg>
+          <circle cx="70" cy="70" r="70"></circle>
+          <circle cx="70" cy="70" r="70"></circle>
+        </svg>
+        <div class="number">
+          <h2>00<span>%</span> </h2>
+        </div>
+          <h2 class="text">Programação Dinâmica</h2>
+      </div>
+    </div>
   </div>
+</div>
 </div>
 
 ## Integrantes
