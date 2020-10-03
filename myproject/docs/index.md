@@ -2,11 +2,9 @@
 
 ## Projeto de algoritmos
 
-<p align='justify'>
   Disciplina do 6º semestre da Universidade de Brasília, ministrada pelo professor Mauricio Serrano. Com objetivo de
   abordar e projetar algoritmos
-  como [Grafos](grafos.md), Algoritmos Ambiciosos, Dividir e Conquistar e Programação Dinẫmica.
-</p>
+  como [Grafos](grafos.md), [Grafos 2](grafos2.md), Algoritmos Ambiciosos, Dividir e Conquistar e Programação Dinâmica.
 
 ## Metodologia
 
@@ -41,7 +39,7 @@
           <circle cx="70" cy="70" r="70"></circle>
         </svg>
         <div class="number">
-          <h2>00<span>%</span> </h2>
+          <h2>100<span>%</span> </h2>
         </div>
           <h2 class="text">Grafos 2</h2>
       </div>

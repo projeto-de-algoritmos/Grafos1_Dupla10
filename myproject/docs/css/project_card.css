@@ -134,6 +134,7 @@ svg circle:nth-child(2) {
   stroke: #00ff43;
 }
 .card:nth-child(2) circle:nth-child(2) {
+  stroke-dashoffset: calc(440 - (440 * 100) / 100);
   stroke: #00a1ff;
 }
 .card2:nth-child(1) circle:nth-child(2) {
