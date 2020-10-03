@@ -1,31 +1,4 @@
-body, input {
-  font-family: 'Open Sans', -apple-system, Helvetica, Arial, sans-serif;
-}
 
-
-.projetosContainer {
-  display: flex;
-  flex-direction: column;
-}
-
-.cardProjetos {
-  box-shadow: 2px 0px 14px 0px #000000;
-  padding: 15px;
-  display: flex;
-  flex-direction: column;
-  margin-bottom: 20px;
-  transition: all .2s ease-in-out;
-}
-
-
-.cardProjetos:hover { transform: scale(1.01); }
-
-.cardContainer {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-}
 
 .integrante {
   display: flex;
@@ -60,18 +33,7 @@ body, input {
 }
 
 @media only screen and (min-width: 1024px) {
-  .cardContainer {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
-  }
 
-  .projetosContainer {
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
-  }
 
   .cardProjetos{
     width: 400px;

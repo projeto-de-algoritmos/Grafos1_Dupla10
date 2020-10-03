@@ -19,6 +19,7 @@ extra_css:
 nav:
   - Home: index.md
   - Grafos 1: grafos.md
+  - Grafos 2: grafos2.md
 
 
   
