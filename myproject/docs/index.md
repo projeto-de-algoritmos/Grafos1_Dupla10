@@ -55,7 +55,7 @@
           <circle cx="70" cy="70" r="70"></circle>
         </svg>
         <div class="number">
-          <h2>00<span>%</span> </h2>
+          <h2>100<span>%</span> </h2>
         </div>
           <h2 class="text">Algoritmos Ambiciosos</h2>
       </div>
