@@ -2,9 +2,9 @@
 
 ## Projeto de algoritmos
 
-  Disciplina do 6º semestre da Universidade de Brasília, ministrada pelo professor Mauricio Serrano. Com objetivo de
-  abordar e projetar algoritmos
-  como [Grafos](grafos.md), [Grafos 2](grafos2.md), Algoritmos Ambiciosos, Dividir e Conquistar e Programação Dinâmica.
+Disciplina do 6º semestre da Universidade de Brasília, ministrada pelo professor Mauricio Serrano. Com objetivo de
+abordar e projetar algoritmos
+como [Grafos](grafos.md), [Grafos 2](grafos2.md), Algoritmos Ambiciosos, Dividir e Conquistar e Programação Dinâmica.
 
 ## Metodologia
 
@@ -27,7 +27,9 @@
         <div class="number">
           <h2>100<span>%</span> </h2>
         </div>
+        <a href="https://projeto-de-algoritmos.github.io/Grafos1_Trem/grafos/" >
           <h2 class="text">Grafos 1</h2>
+        </a>
       </div>
     </div>
   </div>
@@ -41,7 +43,9 @@
         <div class="number">
           <h2>100<span>%</span> </h2>
         </div>
+         <a href="https://projeto-de-algoritmos.github.io/Grafos1_Trem/grafos2/">
           <h2 class="text">Grafos 2</h2>
+        </a> 
       </div>
     </div>
   </div>
@@ -57,7 +61,9 @@
         <div class="number">
           <h2>100<span>%</span> </h2>
         </div>
-          <h2 class="text">Algoritmos Ambiciosos</h2>
+        <a href="https://projeto-de-algoritmos.github.io/Grafos1_Trem/greed/">
+          <h2 class="text">Greed</h2>
+        </a>
       </div>
     </div>
   </div>
@@ -69,12 +75,28 @@
           <circle cx="70" cy="70" r="70"></circle>
         </svg>
         <div class="number">
-          <h2>00<span>%</span> </h2>
+          <h2>100<span>%</span> </h2>
         </div>
-          <h2 class="text">Programação Dinâmica</h2>
+          <h2 class="text">Dividir e conquistar</h2>
       </div>
     </div>
   </div>
+</div>
+<div class="container3">
+<div class="card3" id="n5">
+  <div class="box">
+    <div class="percent">
+      <svg>
+        <circle cx="70" cy="70" r="70"></circle>
+        <circle cx="70" cy="70" r="70"></circle>
+      </svg>
+      <div class="number">
+        <h2>100<span>%</span> </h2>
+      </div>
+        <a href="" ><h2 class="text">Programação Dinâmica</h2></a>
+    </div>
+  </div>
+</div>
 </div>
 </div>
 
